@@ -37,11 +37,21 @@
       - You can write a contract, press run, select javascript VM environment(which is the in-browser virtual ethereum network),then configure the settings as needed, and then you can hit the run/play button
 
 
-#### Account transactions      
-- Account Transaction properties:
+#### General Transaction
+- Transaction properties:
   - nonce(stands for nonsense): how many times the sender has sent a transaction
   - to: address of account this money is going to
   - value: amount of 'wei' to send to the target address
   - gasPrice: amount of wei the sender is willing to pay per unit of gas to get this transaction processed
   - startGas/gaslimit: units of gas that this transaction can consume
-  - v/r/c: cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender's private key.
+  - v/r/s: cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender's private key
+
+#### External Account to create Contract Transaction
+- Transaction properties:
+  - nonce(stands for nonsense): how many times the sender has sent a transaction
+  - to: if this is left blank, the user is attempting to create a new contract
+  - data: compiled bytecode of the contract
+  - value: amount of 'wei' to send to the target address
+  - gasPrice: amount of wei the sender is willing to pay per unit of gas to get this transaction processed
+  - startGas/gaslimit: units of gas that this transaction can consume
+  - v/r/s: cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender's private key
