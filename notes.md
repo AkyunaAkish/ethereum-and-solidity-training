@@ -21,3 +21,13 @@
 - For Consumers to connect:
   - Metamask(chrome extension)
   - Mist Browser
+
+#### Smart Contracts
+- Written in solidity language(.sol files)
+  - Strongly Typed
+  - Similar to Javascript(sort of)
+  - Gets compiled before deployment
+  - Application Binary Interface(ABI)
+    - Translates Solidity smart contract byte code to a usable data format for Javascript to use the smart contract
+  - Doesn't require long development time
+    - More time is invested in writing applications around the Solidity smart contracts that interact with the smart contracts
