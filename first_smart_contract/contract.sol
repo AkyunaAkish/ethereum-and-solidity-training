@@ -10,8 +10,9 @@ contract Inbox {
     // Declares a storage variable
     // which exists for the life of an instance
     // of this contract.
-    // It's type string, public which means it's 
-    // viewable from the outer scope of the contract
+    // It's type string, public which means 
+    // solidity will automatically create a getter method
+    // named message() that can be called to return this value
     string public message;
     
     // Inbox function that takes a string as an argument
@@ -29,6 +30,10 @@ contract Inbox {
         message = newMessage;
     }
 
+        
+    // NOT A NECCESSARY METHOD: message is public which means
+    // a getter was made for us called message()
+    // -----------------------------------------------------------------------------
     // getter method that returns the current value of the message
     // storage variable. 
     // -----------------------------------------------------------------------------

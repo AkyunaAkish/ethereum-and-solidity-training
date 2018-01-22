@@ -21,6 +21,7 @@
 - For Consumers to connect:
   - Metamask(chrome extension)
   - Mist Browser
+- Test sending ether to metamask rinkeby test server: http://rinkeby-faucet.com/
 
 #### Solidity Smart Contracts
 - Written in solidity language(.sol files)
@@ -32,3 +33,15 @@
   - Doesn't require long development time
     - More time is invested in writing applications around the Solidity smart contracts that interact with the smart contracts
   - Solidity online editor: http://remix.ethereum.org/
+    - Remix can be used to test contracts by compiling to bytecode and sending contract to a fake ethereum network and create an instance of your contract on that fake network
+      - You can write a contract, press run, select javascript VM environment(which is the in-browser virtual ethereum network),then configure the settings as needed, and then you can hit the run/play button
+
+
+#### Account transactions      
+- Account Transaction properties:
+  - nonce(stands for nonsense): how many times the sender has sent a transaction
+  - to: address of account this money is going to
+  - value: amount of 'wei' to send to the target address
+  - gasPrice: amount of wei the sender is willing to pay per unit of gas to get this transaction processed
+  - startGas/gaslimit: units of gas that this transaction can consume
+  - v/r/c: cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender's private key.
