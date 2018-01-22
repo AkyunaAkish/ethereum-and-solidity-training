@@ -13,3 +13,11 @@
   - Uses the concept of DAC(decentralized autonomous corporations)
     - Basically a corporation split into sub-corporations where decisions are made based on votes from shareholders. Shareholders who own more Ethereum have more voting power.
   - Whitepaper: http://web.archive.org/web/20131228111141/http://vbuterin.com/ethereum.html
+
+
+#### Ethereum Tools
+- For Developers to connect:
+  - Web3.js
+- For Consumers to connect:
+  - Metamask(chrome extension)
+  - Mist Browser
