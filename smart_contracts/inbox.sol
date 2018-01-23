@@ -51,4 +51,22 @@ contract Inbox {
     function getMessage() public view returns (string) {
         return message;
     }
+
+    // each operation in a contract costs a certain amount
+    // of gas/wei/ether(same thing generally speaking)
+    // the transaction will come with a startGas/gasLimit
+    // so that if the transaction costs more than the limit
+    // the transaction will not happen complete, it will stop
+    // once there is not enough gas to complete the function
+    // a gasPrice will also be passed in, defining how many
+    // units of wei the 'customer' is willing to pay per
+    // unit of gas
+    // function doMath(int a, int b) {
+    //     a + b; // costs 3 gas
+    //     b - a; // costs 3 gas
+    //     a * b; // costs 5 gas
+    //     a == 0; // costs 3 gas
+    // // there are spreadsheets you can find on google to see the price per operation
+    // // even creating variables costs gas, everything costs gas
+    // }
 }
