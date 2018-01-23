@@ -55,3 +55,7 @@
   - gasPrice: amount of wei the sender is willing to pay per unit of gas to get this transaction processed
   - startGas/gaslimit: units of gas that this transaction can consume
   - v/r/s: cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender's private key
+
+  #### Gotchas:
+  - Whenever a transaction is submitted, it takes time to be mined via a proof of work algorithm in order to reach consensus as to whether or not your transaction is valid. 
+  - If you make a function with the same name as your contract within your contract, that will be treated as a constructor function and invoked whenever the contract gets invoked/instantiated.
