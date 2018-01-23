@@ -63,3 +63,9 @@
 - Sending a transaction to a function within a smart contract costs money. (Gas, which is some amount of ether) Gas is used as a price for a miner to charge for completing your transaction for you. 
 - Test networks have very quick/sometimes instant block times, so the transactions are asynchronous but the test networks are just much quicker than the real ethereum network. 
 - 1 Ether is 1,000,000,000,000,000,000 'Wei'(wei is always rounded to the nearest whole number, no decimals) converter: https://etherconverter.online/
+
+
+#### MetaMask
+- Allows for users to transfer Ether within different Ethereum networks in the browser through a Chrome extension
+- You can create as many accounts as you'd like
+- Created 12 word mnemonic phrases as a type of password to secure your account tokens
