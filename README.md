@@ -60,5 +60,6 @@
 - Whenever a transaction is submitted, it takes time to be mined via a proof of work algorithm in order to reach consensus as to whether or not your transaction is valid. 
 - If you make a function with the same name as your contract within your contract, that will be treated as a constructor function and invoked whenever the contract gets invoked/instantiated.
 - A function that will be used in a transaction such as setMessage in the inbox contract cannot return values. If you try you won't get an error, but because that function will be used in a transaction, which is asynchronous, only a transaction hash will be returned from that function when the transaction is completed, despite what you code it to return. 
-- Sending a transaction to a function within a smart contract costs money. 
+- Sending a transaction to a function within a smart contract costs money. (Gas, which is some amount of ether)
 - Test networks have very quick/sometimes instant block times, so the transactions are asynchronous but the test networks are just much quicker than the real ethereum network. 
+- 1 Ether is 1,000,000,000,000,000,000 'Wei'(wei is always rounded to the nearest whole number, no decimals) converter: https://etherconverter.online/
