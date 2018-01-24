@@ -22,6 +22,7 @@
   - Metamask(chrome extension)
   - Mist Browser
 - Test sending ether to metamask rinkeby test server: http://rinkeby-faucet.com/
+  - Another(where you have to make a social media post only containing your rinkeby account address to get the ether): faucet.rinkeby.io
 
 #### Solidity Smart Contracts
 - Written in solidity language(.sol files)
