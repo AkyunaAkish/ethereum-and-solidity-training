@@ -70,4 +70,5 @@
 - You can create as many accounts as you'd like(for example: spending, savings, business, etc)
 - Each account has an address, public, and private key
 - Creates 12 word mnemonic phrases as a type of password to secure your account keys/tokens/hexadecimal hashes. Each mnemonic phrase is per metamask extension per browser for all accounts on that extension. To get a new phrase, uninstall/reinstall metamask. 
-- Side Note: Mnemonic means a series of easy to memorize words
+- Side Note: Mnemonic means a series of easy to memorize words.
+- Mnemonic Code Converter(to see how your mnemonic phrase converts into account addresses/public and private keys): https://iancoleman.io/bip39/
