@@ -73,3 +73,8 @@
 - Creates 12 word mnemonic phrases as a type of password to secure your account keys/tokens/hexadecimal hashes. Each mnemonic phrase is per metamask extension per browser for all accounts on that extension. To get a new phrase, uninstall/reinstall metamask. 
 - Side Note: Mnemonic means a series of easy to memorize words.
 - Mnemonic Code Converter(to see how your mnemonic phrase converts into account addresses/public and private keys): https://iancoleman.io/bip39/
+
+#### Truffle
+- Command line tool that can aid in contract creation, local contract testing, and contract deployment for example to the Rinkeby network
+- Undergoing rapid development(some features are not perfect or completed at this point(01/24/2018))
+- Library can change and old code can become deprecated quickly
