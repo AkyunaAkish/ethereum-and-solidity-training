@@ -67,5 +67,7 @@
 
 #### MetaMask
 - Allows for users to transfer Ether within different Ethereum networks in the browser through a Chrome extension
-- You can create as many accounts as you'd like
-- Created 12 word mnemonic phrases as a type of password to secure your account tokens
+- You can create as many accounts as you'd like(for example: spending, savings, business, etc)
+- Each account has an address, public, and private key
+- Creates 12 word mnemonic phrases as a type of password to secure your account keys/tokens/hexadecimal hashes. Each mnemonic phrase is per metamask extension per browser for all accounts on that extension. To get a new phrase, uninstall/reinstall metamask. 
+- Side Note: Mnemonic means a series of easy to memorize words
