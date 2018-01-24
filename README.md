@@ -78,3 +78,15 @@
 - Command line tool that can aid in contract creation, local contract testing, and contract deployment for example to the Rinkeby network
 - Undergoing rapid development(some features are not perfect or completed at this point(01/24/2018))
 - Library can change and old code can become deprecated quickly
+
+#### Web3
+- Can be used to deploy contracts to an ethereum network
+- Can be used to get access to existing contracts on an ethereum network(requires having the address of the deployed contract you're targeting)
+- The Sole interface between nodejs and an ethereum network
+
+#### Solidity with NodeJS
+- Install npm package: "solc" to compile your solidity code in Node
+  - Example in: ./inbox_node_project/compile.js
+- Deployment of contract bytecode can be done with Ganache(previously known as TestRPC). Ganache creates a local Ethereum test network for you to use for development. 
+- Web3 is used to interact with the Ethereum network and your deployed contracts
+  - Currently going through a rewrite, code in this repo is 1.0.0-beta.26. 
