@@ -90,3 +90,7 @@
 - Deployment of contract bytecode can be done with Ganache(previously known as TestRPC). Ganache creates a local Ethereum test network for you to use for development. 
 - Web3 is used to interact with the Ethereum network and your deployed contracts
   - Currently going through a rewrite, code in this repo is 1.0.0-beta.26. 
+
+#### Infura API
+- Allows for an easy connection to the Rinkeby network
+- An alternative would be to run an ethereum node locally and have that node communicate to Rinkeby, but that would be much more work
