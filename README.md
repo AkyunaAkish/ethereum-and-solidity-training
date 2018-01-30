@@ -36,6 +36,7 @@
   - Solidity online editor: http://remix.ethereum.org/
     - Remix can be used to test contracts by compiling to bytecode and sending contract to a fake ethereum network and create an instance of your contract on that fake network
       - You can write a contract, press run, select javascript VM environment(which is the in-browser virtual ethereum network),then configure the settings as needed, and then you can hit the run/play button
+    - Once 
 
 
 #### General Transaction
@@ -94,3 +95,9 @@
 #### Infura API
 - Allows for an easy connection to the Rinkeby network
 - An alternative would be to run an ethereum node locally and have that node communicate to Rinkeby, but that would be much more work
+
+#### Etherscan
+- https://rinkeby.etherscan.io/
+- https://etherscan.io/   (main network)
+- Reads all contracts on main ethereum networks including main and test networks
+- Contract addresses can be searched in the top right search bar(the contract address will be returned after deploying a contract with web3 in your code)

@@ -80,4 +80,3 @@ describe('Inbox Smart Contract', () => {
         assert.equal(message, newMessage);
     });
 });
-
