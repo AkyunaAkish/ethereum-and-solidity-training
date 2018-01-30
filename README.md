@@ -88,7 +88,7 @@
 #### Solidity with NodeJS
 - Install npm package: "solc" to compile your solidity code in Node
   - Example in: ./inbox_node_project/compile.js
-- Deployment of contract bytecode can be done with Ganache(previously known as TestRPC). Ganache creates a local Ethereum test network for you to use for development. 
+- Deployment of contract bytecode can be done with Ganache(previously known as TestRPC). Ganache creates a local Ethereum test network for you to use for development(production code would take some time to complete, but Ganache completes transactions almost instantaneously). 
 - Web3 is used to interact with the Ethereum network and your deployed contracts
   - Currently going through a rewrite, code in this repo is 1.0.0-beta.26. 
 

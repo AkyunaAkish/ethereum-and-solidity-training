@@ -2,11 +2,17 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
+// the HDWalletProvider is used to
+// connect to a target network, 
+// and unlock an account for use on that target network
+// by taking an account mnemonic(which generates the public/private/address keys for the account).
+// we specify that the provider should connect to an infura ethereum node(the second arg to HDWallet)
 const provider = new HDWalletProvider(
     'theme twist heart suffer effort fiction ladder actor bamboo clutch shrug sample',
     'https://rinkeby.infura.io/orDImgKRzwNrVCDrAk5Q'
 );
 
+// an instance of web3 that connects to your specified provider
 const web3 = new Web3(provider);
 
 const deploy = async () => {

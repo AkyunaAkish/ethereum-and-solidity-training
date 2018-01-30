@@ -25,7 +25,7 @@ describe('Inbox Smart Contract', () => {
     const initialMessage = 'Initial Message';
 
     beforeEach(async () => {
-        // an async/await function will return a promise
+        // an async/await function will return a promise.
         // the lines that say 'await' will block the code below's
         // execution until a value is resolved. 
         // a try/catch could be used to handle rejected 
@@ -71,7 +71,9 @@ describe('Inbox Smart Contract', () => {
 
         // .send({}) sends the transaction to the 
         // ethereum network and requires an account 
-        // address to be responsible for the cost of gas
+        // address to be responsible for the cost of gas.
+        // the send method is generally used to modify
+        // data within a contract
         await inbox.methods.setMessage(newMessage).send({ 
                                                            from: accounts[0] 
                                                         });
